@@ -14,7 +14,8 @@ from random import sample
 rppg_net_att_type = 'MyCBAM_v3'
 args = get_args()
 
-network_name = "rPPG_with_MyCBAM_v3_attention_save_face"
+att_type = 'MyCBAM_v3'
+network_name = f"rPPG_with_{att_type}_attention"
 real_rppg_weight_folder_name = network_name + "_weight"
 
 result_folder_name = get_result_folder_name(args)
