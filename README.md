@@ -8,4 +8,4 @@ We propose a RErPPG-Net to augment existing rPPG datasets by embedding ground-tr
 
 The proposed RErPPG-Net consists of a Removal-Net $G_{R}$ and an Embedding-Net $G_{E}$ and aims to remove any inherent rPPG signals existing in the input videos and then to embed the specified PPG signals into the rPPG-removed videos.
 
-<img src="pipeline.png" width="600">
+<img src="pipeline.PNG" width="600">
