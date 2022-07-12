@@ -16,14 +16,15 @@ The RErPPG-Net and the rPPG estimator were trained with Nvidia RTX 2080 and RTX 
 
 ## Training
 
-The RErPPG-Net and the rPPG estimator were trained 900 and 500 epochs.
+The RErPPG-Net / rPPG estimator were trained with 900 / 500 epochs.
 
 Optimizer : Adam optimizer with the learning rate of 0.001.
-Batch size : RErPPG-Net was trained with 1 batch / rPPG estimator was trained with 3 batch size
+
+Batch size : RErPPG-Net / rPPG estimator were trained with 1 / 3 batch size.
 
 ## Dataset
 
-For the Aug-rPPG database, please refer to [this link].
+For the Aug-rPPG database, please refer to [this link](https://github.com/nthumplab/RErPPGNet).
 
 ## Contributing
 
