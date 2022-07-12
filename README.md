@@ -8,4 +8,16 @@ We propose a RErPPG-Net to augment existing rPPG datasets by embedding ground-tr
 
 The proposed RErPPG-Net consists of a Removal-Net $G_{R}$ and an Embedding-Net $G_{E}$ and aims to remove any inherent rPPG signals existing in the input videos and then to embed the specified PPG signals into the rPPG-removed videos.
 
-<img src="pipeline.PNG" width="600">
+<img src="pipeline.PNG" width="800">
+
+## Implementation
+
+The RErPPG-Net and the rPPG estimator were trained with Nvidia RTX 2080 and RTX 3080.
+
+## Training
+
+The RErPPG-Net and the rPPG estimator were trained 900 and 500 epochs
+Optimizer : Adam optimizer with the learning rate of 0.001.
+Batch size : RErPPG-Net was trained with 1 batch / rPPG estimator was trained with 3 batch size
+
+## Dataset
