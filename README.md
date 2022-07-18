@@ -25,9 +25,11 @@ Batch size : RErPPG-Net / rPPG estimator were trained with 1 / 3 batch size.
 ## Dataset
 
 To generate the Aug-rPPG dataset, we use all the 76 training videos and the corresponding PPG signals from UBFC-rPPG and PURE datasets as the inputs to the proposed RErPPG-Net. 
-The 76 input videos are from 42 subjects, where 35 subjects are from UBFC-rPPG training set and 7 subjects are from PURE training set. 
-By running every possible combination of the videos and PPG signals, we generate 5776 videos of resolution 200*200 pixels. Note that, because we only include the facial region of 200*200 pixels in the data augmentation, our generated videos are of the same quality as the two benchmark datasets.
-Becauew of privacy issues, we can not directly release the "Aug-rPPG" dataset. Please fill in the agreement and contact nthumplab740@gmail.com, we will reply the download link of "Aug-rPPG".
+The 76 input videos are from 42 subjects, where 35 subjects are from UBFC-rPPG training set and 7 subjects are from PURE training set.
+
+By running every possible combination of the videos and PPG signals, we generate 5776 videos of resolution 200*200 pixels. Note that, because we only include the facial region of 200X200 pixels in the data augmentation, our generated videos are of the same quality as the two benchmark datasets.
+Becauew of privacy issues, we can not directly release the "Aug-rPPG" dataset. 
+Please contact nthumplab740@gmail.com, we will reply the download link of "Aug-rPPG".
 
 ## Contributing
 
