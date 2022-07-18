@@ -30,7 +30,6 @@ The 76 input videos are from 42 subjects, where 35 subjects are from UBFC-rPPG t
 By running every possible combination of the videos and PPG signals, we generate 5776 videos of resolution 200*200 pixels. Note that, because we only include the facial region of 200X200 pixels in the data augmentation, our generated videos are of the same quality as the two benchmark datasets.
 
 Becauew of privacy issues, we can not directly release the "Aug-rPPG" dataset. 
-
 Please contact nthumplab740@gmail.com, we will reply the download link of "Aug-rPPG".
 
 ## Contributing
